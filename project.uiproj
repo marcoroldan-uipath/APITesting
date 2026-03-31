@@ -1,0 +1,6 @@
+{
+  "Name": "UiBank_API_Testing",
+  "ProjectType": "Library",
+  "Description": "Test Library for API Testing",
+  "MainFile": "NewActivity.xaml"
+}

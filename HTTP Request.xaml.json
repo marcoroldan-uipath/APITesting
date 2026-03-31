@@ -1,0 +1,69 @@
+{
+  "DisplayName": "HTTP Request",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "Amount",
+      "DisplayName": "Amount",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "2000",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Term",
+      "DisplayName": "Term",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "10",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Income",
+      "DisplayName": "Income",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "1000",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Age",
+      "DisplayName": "Age",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "25",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Email",
+      "DisplayName": "Email",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

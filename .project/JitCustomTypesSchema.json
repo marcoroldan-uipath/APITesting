@@ -1,0 +1,648 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "jhbw6o1RwIoVEWE9NXvR4M4M5JXQehm0BG+0ooP6+1E5m83pRuS+hFJqtTqwNc+4YzaYBbQNOFT04kFgrLwD6g==",
+        "bundleName": "C4C54F70CD3_Quotes",
+        "entitiesBundle": {
+          "Types": {
+            "Quotes": {
+              "name": "Quotes",
+              "properties": [
+                {
+                  "name": "income",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"income\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "_date",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.DateTimeOffset, System.Private.CoreLib]], System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonPropertyAttribute, Newtonsoft.Json"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "PropertyName",
+                            "value": {
+                              "Value": "\"date\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"date\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "amount",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"amount\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "rate",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"rate\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "accepted",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"accepted\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "term",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"term\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "age",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"age\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "email",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"email\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "attributes": {
+                "values": [
+                  {
+                    "Type": {
+                      "ClrType": "System.Runtime.Serialization.DataContractAttribute, System.Runtime.Serialization.Primitives"
+                    },
+                    "constructorArguments": [],
+                    "namedArguments": []
+                  }
+                ]
+              },
+              "values": [],
+              "baseType": {
+                "ClrType": "UiPath.IntegrationService.Activities.Runtime.Models.RootJitObject, UiPath.IntegrationService.Activities.Runtime"
+              },
+              "generateChangeNotifications": true,
+              "skipEqualityCheckForChangeNotifications": true
+            }
+          },
+          "Metadata": {},
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiBank_API_Testing_UiPath.IntegrationService.Activities.SWEntities.C4C54F70CD3_Quotes",
+        "hash": "amhidzZvMVJ3SW9WRVdFOU5YdlI0TTRNNUpYUWVobTBCRyswb29QNisxRTVtODNwUnVTK2hGSnF0VHF3TmMrNFl6YVlCYlFOT0ZUMDRrRmdyTHdENmc9PQ",
+        "assemblyName": "C4C54F70CD3_Quotes.7o1HS4QzMaE1SEU743CIeaO2"
+      }
+    },
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "RruIhOatWcBL8/o8XM0r4sHMrglYGmkmJHGOhhShgKT3u5g1hAQVaJTv/V/TgQOCTzKSHMeAlaHT7mnI7e5V4g==",
+        "bundleName": "C4C54F70CD3_QuotesNewquote",
+        "entitiesBundle": {
+          "Types": {
+            "QuotesNewquote": {
+              "name": "QuotesNewquote",
+              "properties": [
+                {
+                  "name": "income",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Single, System.Private.CoreLib]], System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"income\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "amount",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Single, System.Private.CoreLib]], System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"amount\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "rate",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"rate\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "accepted",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"accepted\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "term",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Single, System.Private.CoreLib]], System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"term\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "quoteid",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"quoteid\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "age",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Single, System.Private.CoreLib]], System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"age\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "email",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"email\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "attributes": {
+                "values": [
+                  {
+                    "Type": {
+                      "ClrType": "System.Runtime.Serialization.DataContractAttribute, System.Runtime.Serialization.Primitives"
+                    },
+                    "constructorArguments": [],
+                    "namedArguments": []
+                  }
+                ]
+              },
+              "values": [],
+              "baseType": {
+                "ClrType": "UiPath.IntegrationService.Activities.Runtime.Models.RootJitObject, UiPath.IntegrationService.Activities.Runtime"
+              },
+              "generateChangeNotifications": true,
+              "skipEqualityCheckForChangeNotifications": true
+            }
+          },
+          "Metadata": {},
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiBank_API_Testing_UiPath.IntegrationService.Activities.SWEntities.C4C54F70CD3_QuotesNewquote",
+        "hash": "UnJ1SWhPYXRXY0JMOC9vOFhNMHI0c0hNcmdsWUdta21KSEdPaGhTaGdLVDN1NWcxaEFRVmFKVHYvVi9UZ1FPQ1R6S1NITWVBbGFIVDdtbkk3ZTVWNGc9PQ",
+        "assemblyName": "C4C54F70CD3_QuotesNe.DAwjv1G2tpM1vS8Cb3iGFdL"
+      }
+    }
+  ]
+}

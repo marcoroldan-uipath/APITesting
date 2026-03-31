@@ -1,0 +1,98 @@
+{
+  "name": "UiBank_API_Testing",
+  "projectId": "2d20391b-1efc-4653-86e1-3ba2350dae6c",
+  "description": "Test Library for API Testing",
+  "main": "NewActivity.xaml",
+  "dependencies": {
+    "UiPath.IntegrationService.Activities": "1.23.0",
+    "UiPath.System.Activities": "25.12.2",
+    "UiPath.Testing.Activities": "25.10.1",
+    "UiPath.WebAPI.Activities": "2.3.2"
+  },
+  "webServices": [
+    {
+      "namespace": "PostmanClient",
+      "serviceDocument": "Services\\PostmanClient.json",
+      "webDocumentUri": "PMAK-6993cb4a9dcf2a00010c5765-e5002bcbea5dc95e2e1a4928f4d8f14b12",
+      "uniqueReference": "qmoFvKspAbIqx0EMabsnODnsqkh5ibfiNmu75dXRFbE="
+    },
+    {
+      "namespace": "uibankapi",
+      "serviceDocument": "Services\\uibankapi.json",
+      "webDocumentUri": "https://uibank-api.uipath.com/explorer/swagger.json",
+      "uniqueReference": "XaSYoq3yIO2NiBaAkgODTGBghDp2ksEj4p2OawE3dyo="
+    }
+  ],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "25.10.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "df452266-5bbf-461f-9964-cbb933ce5898",
+        "dataVariationFilePath": ".variations\\Test Data_Sheet1.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "HTTP Request.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e155c7e4-3972-4f33-a919-3f6c345e9efe",
+        "dataVariationFilePath": ".variations\\Test Data_Sheet1.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Service - Swagger.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7b74d61b-4bba-435a-83cb-fbaf84dda45b",
+        "dataVariationFilePath": ".variations\\Test Data_Sheet1.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Service - Postman.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f9a9f93a-6d02-475a-baa6-96b2c3d83622",
+        "dataVariationFilePath": ".variations\\Test Data_Sheet1.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Integration Service - Connector.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

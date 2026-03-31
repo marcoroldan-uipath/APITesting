@@ -1,0 +1,189 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Integratio_Service___Connector" this:Integratio_Service___Connector.Amount="2000" this:Integratio_Service___Connector.Term="10" this:Integratio_Service___Connector.Income="1000" this:Integratio_Service___Connector.Age="25" this:Integratio_Service___Connector.Email="usuario1@uipath.com" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:isactr="http://schemas.uipath.com/workflow/integration-service-activities/isactr" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uiascb="clr-namespace:UiBank_API_Testing_UiPath.IntegrationService.Activities.SWEntities.C4C54F70CD3_QuotesNewquote.Bundle;assembly=C4C54F70CD3_QuotesNe.DAwjv1G2tpM1vS8Cb3iGFdL" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="Amount" Type="InArgument(x:String)" />
+    <x:Property Name="Term" Type="InArgument(x:String)" />
+    <x:Property Name="Income" Type="InArgument(x:String)" />
+    <x:Property Name="Age" Type="InArgument(x:String)" />
+    <x:Property Name="Email" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>Integratio_Service___Connector_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>uibankapi</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.WebClient.QuoteClientNamespace</x:String>
+      <x:String>UiPath.WebClient.Activities.Generator.Swagger</x:String>
+      <x:String>UiPath.WebClient.Activities.Generator.Code</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models.FilterBuilder</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Helpers.TypeDetailsCustomization</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Activities</x:String>
+      <x:String>UiPath.Platform.Activities</x:String>
+      <x:String>UiBank_API_Testing_UiPath.IntegrationService.Activities.SWEntities.C4C54F70CD3_Quotes.Bundle</x:String>
+      <x:String>UiBank_API_Testing_UiPath.IntegrationService.Activities.SWEntities.C4C54F70CD3_QuotesNewquote.Bundle</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>uibankapi</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>UiPath.IntegrationService.Activities.Runtime</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>C4C54F70CD3_Quotes.7o1HS4QzMaE1SEU743CIeaO2</AssemblyReference>
+      <AssemblyReference>C4C54F70CD3_QuotesNe.DAwjv1G2tpM1vS8Cb3iGFdL</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Integration_Service___Connector" sap:VirtualizedContainerService.HintSize="1793.3333333333333,948.9899999999999" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="uiascb:QuotesNewquote" Name="newQuote" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="450,140" sap2010:WorkflowViewState.IdRef="Sequence_5">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:LogMessage DisplayName="Log Message - Service - Integration Service - Connector" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Warn" Message="[&quot;Test: Service - Integration Service - Connector&quot;]">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:LogMessage>
+    </Sequence>
+    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="450,516" sap2010:WorkflowViewState.IdRef="Sequence_6">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACuVV23LaMBD9FY+fKbl22mEmD+CElJYEGiB96GQYIW9AQZYcaUVKGf69K9vcYtJ0Jnnr+MU60l50zmp3ETYFyNhGWiETCkxYW4Q9YIZP2EhCvhnWft5Vwq8CWyp1mGH+2DVLIKx5fPjdaQR7DU+P/ieshOfCppLNiyP5dqC29sFyI1IUWpX3A+HjBHr0ABzpcH+eei8D0WBqOqx3W8M+WBRqPByILsNJtaUQxoZ5bz0wM8GhWucoZgIF2Grvx4XC/Dc6jT6eNj8dRucnz3KuNpyKJVR30Uqwz6J6Xn96mB1dHmN6dTTrfY5GJ+KyGbcrwS0YS0mcHVUP/UfmTqIzcKbAoWGyEnTdSAr+DeZ9PQV1ppyUdMMbeHR0pbB2z6SFfC0MEM1oHK0zztuaZ1fMOe9k7GSKkIOWJahQxpssK+EXZgdK3AuIPX925Wqjodd1rSIbl2UrsB2pBpauGHBnDCgM8hOFPsolIyqg17Nv6HgeLiub2Il2Csvh1/BOBm3NVJDvBSbnjUK9PQuhuKaf51ls4L/wsD701iQQTFJKYQXuJODB4F6bACcQSOLkHaJDwoQshV+jO/EvPBrU49iAtZvYFg09zPCFWJWwoyKmZqwoxyX1lY7DvRX5Dn3lP+0dNtXKwkui53zv6RkeuaIhsHKw3U7uqKFsd5NIJyk5pBGx6SsWmeLQZYbEoeokMRdhcSkKm12LotKkUdS4tKF7EMydRZ18cILcTbgGhggqpvWI9GKpSGgUaTIrNJkXel4CzSrBfUGlkKtHaGTIHqiiqUlwJsVviFd2RcVQlmAwuAGujW8aEeMTIHb01KW3TBKRPuu8t+YmVJCteF1r5VKMtHSJ8pVbKkcq7l72HJraJAyfG4SLw+U/lHSUMVTImwmRJ90w+oku00JIfNKEd42na07EFiO7y/iUWvS2CMcnuyoUYdd8D68Kwtcntq1JRE95Rs9reW+TWGZvj2w0spBeBeBEe8K7nV6fMP9IaXWQGdqDrQBtpsbOTyBqUb770cBrkKcpER5NaM9rWbyJlr2hcSESiKSgfj2wmVleuH34hQ2p+TQjbfkHWY2I+BIJAAA=" ConnectionId="c1335a65-d71b-4b4b-b6ed-2f4c54f70cd3" DisplayName="Insert Record" sap:VirtualizedContainerService.HintSize="416,424" sap2010:WorkflowViewState.IdRef="ConnectorActivity_2" UiPathActivityTypeId="75908d6e-1352-3c9d-affd-1408e35ec74c">
+        <isactr:ConnectorActivity.FieldObjects>
+          <isactr:FieldObject Name="age" Type="FieldArgument">
+            <isactr:FieldObject.Value>
+              <InArgument x:TypeArguments="x:Single">[CSng(Age)]</InArgument>
+            </isactr:FieldObject.Value>
+          </isactr:FieldObject>
+          <isactr:FieldObject Name="amount" Type="FieldArgument">
+            <isactr:FieldObject.Value>
+              <InArgument x:TypeArguments="x:Single">[CSng(Amount)]</InArgument>
+            </isactr:FieldObject.Value>
+          </isactr:FieldObject>
+          <isactr:FieldObject Name="income" Type="FieldArgument">
+            <isactr:FieldObject.Value>
+              <InArgument x:TypeArguments="x:Single">[CSng(Income)]</InArgument>
+            </isactr:FieldObject.Value>
+          </isactr:FieldObject>
+          <isactr:FieldObject Name="term" Type="FieldArgument">
+            <isactr:FieldObject.Value>
+              <InArgument x:TypeArguments="x:Single">[CSng(Term)]</InArgument>
+            </isactr:FieldObject.Value>
+          </isactr:FieldObject>
+          <isactr:FieldObject Name="Jit_QuotesNewquote" Type="FieldArgument">
+            <isactr:FieldObject.Value>
+              <OutArgument x:TypeArguments="uiascb:QuotesNewquote">[newQuote]</OutArgument>
+            </isactr:FieldObject.Value>
+          </isactr:FieldObject>
+          <isactr:FieldObject Name="email" Type="FieldArgument">
+            <isactr:FieldObject.Value>
+              <InArgument x:TypeArguments="x:String">[Email]</InArgument>
+            </isactr:FieldObject.Value>
+          </isactr:FieldObject>
+        </isactr:ConnectorActivity.FieldObjects>
+      </isactr:ConnectorActivity>
+    </Sequence>
+    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="450,197.33333333333334" sap2010:WorkflowViewState.IdRef="Sequence_7">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:Boolean" Name="testResult" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="False" DisplayName="Verify Expression - Accepted" Expression="[Convert.ToBoolean(newQuote.accepted)]" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" Result="[testResult]" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+    </Sequence>
+  </Sequence>
+</Activity>
