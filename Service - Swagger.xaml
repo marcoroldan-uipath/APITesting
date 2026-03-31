@@ -232,7 +232,7 @@
       <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap:VirtualizedContainerService.HintSize="863.6,1344.8" sap2010:WorkflowViewState.IdRef="Sequence_37">
+  <Sequence sap:VirtualizedContainerService.HintSize="1900,1357.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_37">
     <Sequence.Variables>
       <Variable x:TypeArguments="u:Response15" Name="response" />
       <Variable x:TypeArguments="x:Boolean" Name="testResult" />
@@ -242,13 +242,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="This workflow tests the UiBank API quote service." sap:VirtualizedContainerService.HintSize="449.6,257.6" sap2010:WorkflowViewState.IdRef="Sequence_34">
+    <Sequence DisplayName="This workflow tests the UiBank API quote service." sap:VirtualizedContainerService.HintSize="450,259.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_34">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:LogMessage DisplayName="Logs the start of the test" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Warn" Message="[&quot;Test: Service - Swagger1&quot;]">
+      <ui:LogMessage DisplayName="Logs the start of the test" sap:VirtualizedContainerService.HintSize="416,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Warn" Message="[&quot;Test: Service - Swagger3&quot;]">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -257,13 +257,13 @@
         </sap:WorkflowViewStateService.ViewState>
       </ui:LogMessage>
     </Sequence>
-    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="449.6,933.6" sap2010:WorkflowViewState.IdRef="Sequence_35">
+    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="450,944.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_35">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uwq:Quote_newquoteActivity BearerToken="{x:Null}" ClientCertificate="{x:Null}" ClientCertificatePassword="{x:Null}" Headers="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" Username="{x:Null}" DisplayName="Calls the new quote API endpoint" Endpoint="https://uibank-api.uipath.com/api" sap:VirtualizedContainerService.HintSize="416,841.6" sap2010:WorkflowViewState.IdRef="Quote_newquoteActivity_9" Response="[response]" TimeoutMS="30000">
+      <uwq:Quote_newquoteActivity BearerToken="{x:Null}" ClientCertificate="{x:Null}" ClientCertificatePassword="{x:Null}" Headers="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" Username="{x:Null}" DisplayName="Calls the new quote API endpoint" Endpoint="https://uibank-api.uipath.com/api" sap:VirtualizedContainerService.HintSize="416,852.6666666666666" sap2010:WorkflowViewState.IdRef="Quote_newquoteActivity_9" Response="[response]" TimeoutMS="30000">
         <uwq:Quote_newquoteActivity.Request>
           <uwq:QuoteClientQuote_newquoteRequest Age="[Conversions.ToDouble(Age)]" Amount="[Conversions.ToDouble(Amount)]" Email="[Email]" Income="[Conversions.ToDouble(Income)]" Term="[Conversions.ToDouble(Term)]" />
         </uwq:Quote_newquoteActivity.Request>
